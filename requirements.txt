@@ -4,3 +4,6 @@ numpy
 scikit-learn
 kneed
 altair
+matplotlib
+seaborn
+plotly
