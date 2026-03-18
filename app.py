@@ -55,7 +55,7 @@ if df is None :
 
 with st.sidebar:
 
-    st.title("⚙️ Settings")
+    st.title("👪 Customer Segmentation")
 
     st.image("image1.jpg")
 
