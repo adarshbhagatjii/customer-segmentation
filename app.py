@@ -44,8 +44,9 @@ df = None
 
 if file:
     df = pd.read_csv(file)
-if st.button("Use Sample Dataset"):
-    df=pd.read_csv("Mall_Customers_.csv")
+if df is None :
+    if st.button("Use Sample Dataset"):
+        df=pd.read_csv("Mall_Customers_.csv")
 
 
 # ============================================
